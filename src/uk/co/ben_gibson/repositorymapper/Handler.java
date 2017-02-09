@@ -61,6 +61,7 @@ class Handler
 
                     BrowserLauncher.getInstance().open(url.toURI().toString());
 
+                    /*
                     IdeaPluginDescriptor plugin = PluginManager.getPlugin(PluginId.getId("uk.co.ben-gibson.remote.repository.mapper"));
 
                     if (plugin == null) {
@@ -92,6 +93,7 @@ class Handler
                     } catch (Exception ignored) {
 
                     }
+                    */
 
                 }  catch (Exception e) {
                     Notifier.errorNotification(e.getMessage());
